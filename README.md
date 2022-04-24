@@ -1,6 +1,7 @@
 # Clash TAP TUN 区别和使用方法
 
-Clash 软件下载地址：https://github.com/Fndroid/clash_for_windows_pkg/releases
+Clash 软件下载地址：https://github.com/Fndroid/clash_for_windows_pkg/releases<br>
+视频教程：▶ https://youtu.be/V1oSmz1k29Y
 
 ### 启动 TAP 模式
 
