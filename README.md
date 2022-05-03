@@ -39,11 +39,40 @@ Clash TUN 和 TAP 类似，都是让所有流量走虚拟网卡，实现所有�
 ### Clash TAP 网络电缆被拔出
 出现这种提示表示没有启动 TAP模式，只需要启动 TAP 模式即可。<br><br>
 
-### Clash TAP 网络适配器 无法安装？
-如果无法安装 TAP ，可以尝试这样安装：
-- 先开启翻墙再安装。
-- 重启电脑再安装。
-- 将电脑网卡驱动卸载重新安装。
+### Service Mode 无法安装
+.NET framework  <a href="https://dotnet.microsoft.com/zh-cn/download/dotnet-framework/net48" target="_blank">点击下载>></a><br>
 
+然后尝试手动安装：<br>
+1、关闭360等杀毒软件<br>
+2、点击 General 中的 Home Directory 打开文件夹，进入 service 子目录中<br>
+3、打开 CMD，执行以下命令：<br>
+
+    service.exe install
+    service.exe start
+
+
+### Killer 系列网卡无法开启 TAP/TUN 模式
+对于 Killer 系列网卡，需要在 Killer Control Center 中，关闭「Killer Prioritization Engine」才可以使用 CFW 的 TUN 或者 TAP。<br><br>
+
+
+### 在 Windows 系统中，TUN 模式下无法使用热点分享功能
+1、开启热点分享功能，此时系统网络设置中会生成一个网卡<br>
+2、开启 TUN 模式<br>
+3、进入系统网络设置，在 Clash 网卡右键选择属性，选择共享标签页<br>
+4、勾选“允许其他网络用户通过此计算机的 Internet 连接来连接”<br>
+5、在“家庭网络连接”选择框中选择第 1 步生成的网卡<br><br>
+
+
+### 软件启动时，TUN 创建网卡失败，提示 Start Tun interface error: error creating interface: Cannot create a file when that file already exists.
+1、进入 Home Directory<br>
+2、编辑 config.yaml，添加如下配置（在最后面粘贴）：<br>
+
+    tun:
+      enable: true
+      stack: gvisor
+      auto-route: false
+      auto-detect-interface: false
+3、重启 Clash
+  
 
 
