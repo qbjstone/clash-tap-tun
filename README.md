@@ -40,6 +40,7 @@ Clash TUN 和 TAP 类似，都是让所有流量走虚拟网卡，实现所有�
 出现这种提示表示没有启动 TAP模式，只需要启动 TAP 模式即可。<br><br>
 
 ### Service Mode 无法安装
+视频教程：▶ https://youtu.be/_zO-8R_tgaE<br>
 .NET framework  <a href="https://dotnet.microsoft.com/zh-cn/download/dotnet-framework/net48" target="_blank">点击下载>></a><br>
 
 然后尝试手动安装：<br>
