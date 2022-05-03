@@ -52,7 +52,7 @@ Clash TUN 和 TAP 类似，都是让所有流量走虚拟网卡，实现所有�
 
 
 ### Killer 系列网卡无法开启 TAP/TUN 模式
-对于 Killer 系列网卡，需要在 Killer Control Center 中，关闭「Killer Prioritization Engine」才可以使用 CFW 的 TUN 或者 TAP。<br><br>
+对于 Killer 系列网卡，需要在 Killer Control Center 中，关闭「Killer Prioritization Engine」才可以使用 Clash 的 TUN 或者 TAP。<br><br>
 
 
 ### 在 Windows 系统中，TUN 模式下无法使用热点分享功能
