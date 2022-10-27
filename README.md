@@ -1,7 +1,7 @@
 # Clash TAP TUN 区别和使用方法
 
 Clash 软件下载地址：https://github.com/Fndroid/clash_for_windows_pkg/releases<br>
-视频教程：▶ https://youtu.be/V1oSmz1k29Y
+视频教程：▶ https://youtu.be/LUS8fAJ5F9Y
 
 ### 启动 TAP 模式
 
@@ -40,7 +40,7 @@ Clash TUN 和 TAP 类似，都是让所有流量走虚拟网卡，实现所有�
 出现这种提示表示没有启动 TAP模式，只需要启动 TAP 模式即可。<br><br>
 
 ### Service Mode 无法安装
-视频教程：▶ https://youtu.be/_zO-8R_tgaE<br>
+视频教程：▶ https://youtu.be/Y52pjEYsBIY<br>
 .NET framework  <a href="https://dotnet.microsoft.com/zh-cn/download/dotnet-framework/net48" target="_blank">点击下载>></a><br>
 
 然后尝试手动安装：<br>
